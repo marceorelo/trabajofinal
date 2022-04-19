@@ -3,34 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">   
+    <link rel="stylesheet" href="css/style.css">  
+    <script src="js/bootstrap.bundle.min.js"></script>
     <title>Pets Shop</title>
     <link rel="shortcut icon" href="images/cuchita.jpg" type="image/x-icon">
 </head>
 <body class="body">
-    <div class="grid-container">
-        <div class="item1">
-            <img src="images/cuchita1.jpg"> 
-            <h1 class="h1">Pets Shop</h1>
-        </div>
-        <div class="item2">
-            <ul class="menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="cuchas.html">Cuchas</a></li>
-                <li><a href="quienes_somos.html">Nosotros</a></li>
-                <li><a href="ubicacion.html">Ubicación</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-              </ul> 
-        </div>
-        <div class="item3"><img src="images/img_3625.jpg" width="220"></div>  
-        <div class="item4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-        <div class="item5">
-            
-                <img src="images/ubicacion.png" alt="" width="40"><span style="padding-left:10px">Manantiales 3456 X500234 </span>
-            
-        </div>
-      </div>
-   
+ 
+   <div class="container-fluid p-3 mb-2 bg-danger text-dark">
+          
+            <div class="row">  
+                <div class="col-md-2">
+                    <img src="images/cuchita1.png">                     
+                </div>   
+                <div class="col-md-4">
+                    <h1 class="display-4">Pets Shop</h1>                       
+                </div> 
+                <div class="col-md-6">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page"  href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="cuchas.html">Cuchas</a>
+                        </li>                        
+                        <li class="nav-item">
+                          <a class="nav-link" href="quienes_somos.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ubicacion.html">Ubicación</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                      </ul>    
+                      
+                  </div>                 
+            </div>   
+
+   </div>
+    <div class="container-fluid">  
+        <div class="row">  
+            <div class="col-md-12">                              
+                
+                    <div class="d-flex justify-content-end">
+                        <img src="images/instagram1.jpg" alt="" width="40" class="img-fluid"><img src="images/facebook.png" alt="" width="40" class="img-fluid"><img src="images/whatsapp.png" alt="" width="40" class="img-fluid">
+                    </div>    
+                </div>     
+              
+        </div>  
+    </div>
+<div class="container"> 
+    <div class="row">
+    <sidebar class="col-md-3">
+        <p><a href="index.html">Inicio</a></p>
+        <p><a href="cuchas.html">Cuchas</a></p>
+        <p><a href="quienes_somos.html">Nosotros</a></p>
+        <p><a href="ubicacion.html">Ubicación</a></p>
+        <p><a href="contacto.html">Contacto</a></p>
+    </sidebar>
+    <section class="col-md-6 bg-secondary text-white">
+    <div class="row">
+            <h2 class="display-6">UBICACIÓN</h2>
+            <img class="img-fluid" src="images/img_3625.jpg" alt="">
+    </div>    
+ 
+</section>
+</div>
+</div>
+<div class="container-fluid p-3 mb-2 bg-danger text-dark">
+    <div class="container">    
+        <img src="images/ubicacion.png" alt="" width="40"><span style="padding-left:10px">Manantiales 3456 X500234 </span>        
+    </div>  
+</div>
 </body>
 </html>

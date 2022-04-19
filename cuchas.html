@@ -3,41 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="css/style.css">    
+    <script src="js/bootstrap.bundle.min.js"></script>
     <title>Pets Shop</title>
     <link rel="shortcut icon" href="images/cuchita.jpg" type="image/x-icon">
 </head>
 <body class="body">
-    <header class="grid-container">
-        <img src="images/cuchita1.jpg"> 
-        <h1 class="h1">Pets Shop</h1>
-        <ul class="menu">
-       
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="cuchas.html">Cuchas</a></li>
-        <li><a href="quienes_somos.html">Nosotros</a></li>
-        <li><a href="ubicacion.html">Ubicación</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-    </ul>
-</header>
+ 
+   <div class="container-fluid p-3 mb-2 bg-danger text-dark">
           
-                <div id="gridContainer1">                
-                    <div id="parrafo">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorum earum voluptas voluptate perspiciatis, nostrum soluta animi. Rem non id, commodi optio consectetur maiores expedita ad vitae ipsa voluptates molestiae!  </p>
-                                           
-                    </div>
-                    <div id="imagen">
-                        <img src="images/cuchita1.jpg" class="imagen_parrafo">
-                    </div>          
-           
-            <footer>
-                <div class="flex-container "> 
-                    <img src="images/ubicacion.png" alt="" width="40"><p><span style="padding-left:10px">Manantiales 3456 X500234 </span></p>     
-                </div>            
-            </footer>
+            <div class="row">  
+                <div class="col-md-2">
+                    <img src="images/cuchita1.png">                     
+                </div>   
+                <div class="col-md-4">
+                    <h1 class="display-4">Pets Shop</h1>                       
+                </div> 
+                <div class="col-md-6">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page"  href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="cuchas.html">Cuchas</a>
+                        </li>                        
+                        <li class="nav-item">
+                          <a class="nav-link" href="quienes_somos.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ubicacion.html">Ubicación</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                      </ul>    
+                      
+                  </div>                 
+            </div>   
 
-            
+   </div>
+    <div class="container-fluid">  
+        <div class="row">  
+            <div class="col-md-12">                              
+                
+                    <div class="d-flex justify-content-end">
+                        <img src="images/instagram1.jpg" alt="" width="40" class="img-fluid"><img src="images/facebook.png" alt="" width="40" class="img-fluid"><img src="images/whatsapp.png" alt="" width="40" class="img-fluid">
+                    </div>    
+                </div>     
+              
+        </div>  
+    </div>
+<div class="container"> 
+    <div class="row">
+    <sidebar class="col-md-3">
+        <p><a href="index.html">Inicio</a></p>
+        <p><a href="cuchas.html">Cuchas</a></p>
+        <p><a href="quienes_somos.html">Nosotros</a></p>
+        <p><a href="ubicacion.html">Ubicación</a></p>
+        <p><a href="contacto.html">Contacto</a></p>
+    </sidebar>
+    <section class="col-md-9">
+    <div class="row">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="images/item1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/item2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">                 
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/item3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">                 
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+   </div>
+</section>
 
+<div class="container-fluid p-3 mb-2 bg-danger text-dark">
+    <div class="container">    
+        <img src="images/ubicacion.png" alt="" width="40"><span style="padding-left:10px">Manantiales 3456 X500234 </span>        
+    </div>  
+</div>
 </body>
 </html>

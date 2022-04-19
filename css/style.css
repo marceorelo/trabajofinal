@@ -1,98 +1,22 @@
- 
- .item1 { 
-     grid-area: header; 
-     background-image: linear-gradient(to left, lightpink, rgb(155, 150, 151));
-    }
- .item2 { 
-     grid-area: menu; 
-    background-color: rgb(155, 150, 151);
-    }
-
- .item3 { 
-     grid-area: main;
-     background-color:  lightpink;
-    }
- .item4 { 
-     grid-area: right; 
-     background-color: lightpink;
-    }
- .item5 { 
-     grid-area: footer; 
-     background-image: linear-gradient(to left, lightpink, rgb(155, 150, 151));
-    }
- 
- .grid-container {
-   display: grid;
-   grid-template-areas:
-     'header header header header header header'
-     'menu main main main right right'
-     'footer footer footer footer footer footer';
- }
-
-
-.menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    list-style: none;
-}
-
-.menu li {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.menu li a {
-    text-decoration: none;
-    color: #333333;
-}
-
-.menu li a:hover {
-    font-weight: bold;
-    font-size: 15px;
-}
-
-
-
-
-@media only screen and (max-width:1024px) {
-    #grilla {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-   
-}
-
-@media only screen and (max-width:768px) {
-     #grilla {
-        grid-template-columns: repeat(2, 1fr);
-      }
-
+/* unvisited link */
+a:link {
+    color: red;
   }
-
-.transform1 {
-    transform:translateY(100px);
-    transform:rotate(45deg);
-
-}
- 
-.transicion1 {
-    background-color: lightpink;
-    transition: all;
-}
-
-
-.transicion1:hover{
-    
-    border-radius: inherit;
-    background-color: rgb(155, 150, 151);
-}
-
-flex-container {
-    display: flex;
-    justify-content: flex-end;
-
-}
+  
+  /* visited link */
+  a:visited {
+    color: rgb(0,0,0);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
 
 
 
