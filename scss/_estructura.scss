@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header, footer
+    {
+        color:white;
+        padding: 0px;
+    }
+
+.logo {
+    width: 150px;
+}
+
+.destacado
+    {
+        color: $color_secundario;
+        font-weight: bold;
+    }
+
+.destacado2
+    {
+        font-weight: bold;
+    }

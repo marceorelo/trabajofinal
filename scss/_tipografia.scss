@@ -1,0 +1,22 @@
+/* unvisited link */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+a:link {
+    color: rgb(0,0,0);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(0,0,0);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }

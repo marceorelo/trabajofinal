@@ -1,0 +1,40 @@
+/* unvisited link */
+body {
+  font-family: 'Poppins', sans-serif; }
+
+a:link {
+  color: black; }
+
+/* visited link */
+a:visited {
+  color: black; }
+
+/* mouse over link */
+a:hover {
+  color: hotpink; }
+
+/* selected link */
+a:active {
+  color: blue; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+header, footer {
+  color: white;
+  padding: 0px; }
+
+.logo {
+  width: 150px; }
+
+.destacado {
+  color: #180248;
+  font-weight: bold; }
+
+.destacado2 {
+  font-weight: bold; }
+
+mi_estilo {
+  color: white;
+  background-color: black; }
