@@ -1,3 +1,42 @@
 @import "colores";
 @import "tipografia";
 @import "estructura";
+
+
+.boton {
+    width: 100px;
+    height: 50px;
+    background-color: pink;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;    
+}
+
+.boton--enviar{
+    @extend .boton;
+    height: 40px;
+    background-color: rgb(211, 70, 77);
+}
+
+.boton--cancelar{
+    @extend .boton;
+    height: 40px;
+    background-color: rgb(211, 70, 77);    
+}
+
+@mixin sizes($width, $height) {   
+    width: $width;
+    height: $height;
+}
+
+.plano {
+    @include sizes(300px, 400px);
+}
+
+$lista: red, blue, pink, purple ;
+@each $color in $lista {
+    .#{$color} {
+        color: $color;
+    }
+}
